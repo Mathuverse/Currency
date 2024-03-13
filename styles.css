@@ -1,0 +1,69 @@
+/* Overall page styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #e8eff1; /* Soft background color */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark grey for better readability */
+}
+
+#game-container {
+    text-align: center;
+    width: 90%; /* Increase the width */
+    max-width: 800px; /* Larger maximum width for larger displays */
+    margin: auto;
+    padding: 2em; /* More padding for better aesthetics */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* More pronounced shadow for depth */
+    background-color: #f7faff; /* Light and fresh background color for the container */
+    border-radius: 10px; /* Slightly larger border-radius for a softer look */
+    border: 1px solid #d4dfe6; /* Subtle border for definition */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger text for the title */
+    margin-bottom: 0.75em; /* More space below the title */
+    color: #0056b3; /* Color for the title to add vibrancy */
+}
+
+/* Image styling */
+#currency-image {
+    width: 100%; /* Full width within container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 400px; /* Setting a maximum height */
+    border-radius: 4px; /* Slightly rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* More pronounced shadow for the image */
+    margin-bottom: 1em; /* Space below the image */
+}
+
+/* Styling for choice buttons */
+#choices-container button {
+    display: inline-block; /* Align buttons side by side */
+    width: auto; /* Auto width based on text content */
+    margin: 0.5em; /* Spacing around buttons */
+    padding: 0.75em 1.5em; /* Padding inside buttons */
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #17a2b8; /* Vibrant background color for buttons */
+    color: white;
+    border-radius: 20px; /* Pill-shaped buttons */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for buttons */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for buttons */
+#choices-container button:hover {
+    transform: translateY(-5px) scale(1.05); /* Lift and slightly scale up effect */
+    background-color: #138496; /* A slightly darker shade for the button background on hover */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2); /* More pronounced shadow on hover */
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #28a745; /* Positive, success-like color for feedback */
+}
